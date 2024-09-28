@@ -59,7 +59,7 @@ main > section + section img{
 
 main > section + section > iframe{
   position: absolute;
-  display: grid; /* or `inline-grid` if you prefer */
+  display: grid; 
   grid-column: 2 ; /* Start at column 2 */
   grid-row: 2 ; /* Start at row 2 */
   z-index: 2; /* layer on top of the image*/
